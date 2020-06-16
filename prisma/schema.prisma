@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dummy.db"
+}
+
+model Car {
+  colour String
+  id     Int    @default(autoincrement()) @id
+  make   String
+  model  String
+  year   Int
+}
