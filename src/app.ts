@@ -41,4 +41,4 @@ app.delete(`/car/:id`, async (req, res) => {
   res.json(result);
 });
 
-app.listen(3000, () => console.log("Server ready on http://localhost:3000"));
+export default app;
