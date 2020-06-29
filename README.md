@@ -1,6 +1,6 @@
 # Car API Example
 
-This example shows how I implemented to ECS Car API tech test using [Express](https://expressjs.com/) and [Prisma Client](https://prisma.io), based on a SQLite database.
+This example shows a simple REST Car API using [Express](https://expressjs.com/) and [Prisma Client](https://prisma.io), based on a SQLite database.
 
 ## How to use
 
